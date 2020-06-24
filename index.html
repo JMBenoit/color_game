@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Color Game</title>
+</head>
+<body>
+    <div id="title">
+        <h2>The Great Color Guessing Game</h2>
+        <h1>RGB(<span id="r">000</span>, <span id="g">000</span>, <span id="b">000</span>)</h1>
+    </div>
+
+    <div id="navbarContainer">
+        <div id="navbar">
+            <button id="newColors">NEW COLORS</button>
+            <span id="message"></span>
+            <div id="modes">
+                <button id="easyBtn">EASY</button>
+                <button id="hardBtn">HARD</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="boardContainer">
+        <div id="board">
+            <div id="color1" class="color"></div>
+            <div id="color2" class="color"></div>
+            <div id="color3" class="color"></div>
+            <div id="color4" class="color"></div>
+            <div id="color5" class="color"></div>
+            <div id="color6" class="color"></div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
